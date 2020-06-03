@@ -1,0 +1,13 @@
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\bin\Debug\netcoreapp3.1\calculadora-cs.exe
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\bin\Debug\netcoreapp3.1\calculadora-cs.deps.json
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\bin\Debug\netcoreapp3.1\calculadora-cs.runtimeconfig.json
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\bin\Debug\netcoreapp3.1\calculadora-cs.runtimeconfig.dev.json
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\bin\Debug\netcoreapp3.1\calculadora-cs.dll
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\bin\Debug\netcoreapp3.1\calculadora-cs.pdb
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\obj\Debug\netcoreapp3.1\calculadora-cs.csprojAssemblyReference.cache
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\obj\Debug\netcoreapp3.1\calculadora-cs.csproj.CoreCompileInputs.cache
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\obj\Debug\netcoreapp3.1\calculadora-cs.AssemblyInfoInputs.cache
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\obj\Debug\netcoreapp3.1\calculadora-cs.AssemblyInfo.cs
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\obj\Debug\netcoreapp3.1\calculadora-cs.dll
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\obj\Debug\netcoreapp3.1\calculadora-cs.pdb
+C:\Users\Juninho\Desktop\Códigos Daniel\calculadora-cs\obj\Debug\netcoreapp3.1\calculadora-cs.genruntimeconfig.cache
