@@ -31,10 +31,18 @@ namespace calculadora_cs
             resultado = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.White;
 
-            System.Console.Write("RESULTADO: ");
-            Console.ForegroundColor = ConsoleColor.Green;
-            System.Console.WriteLine(CalculaResultado(resultado, resultadosV)); 
-            Console.ForegroundColor = ConsoleColor.White;
+            if (CalculaResultado(resultado, resultadosV) == "ERRO") {
+                System.Console.Write("RESULTADO: ");
+                Console.ForegroundColor = ConsoleColor.Red;
+                System.Console.WriteLine("IMPOSSÍVEL DIVIDIR POR ZERO."); 
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            else {
+                System.Console.Write("RESULTADO: ");
+                Console.ForegroundColor = ConsoleColor.Green;
+                System.Console.WriteLine(CalculaResultado(resultado, resultadosV)); 
+                Console.ForegroundColor = ConsoleColor.White;
+            }
         }
 
         private string CalculaResultado(string r, string[] rs) {
@@ -42,7 +50,10 @@ namespace calculadora_cs
                 switch (r[c]) {
                     case '/':
                         rs = r.Split("/");
-                        return Convert.ToString(Divisao(Convert.ToDouble(rs[0]), Convert.ToDouble(rs[1])));
+                        if (Divisao(Convert.ToDouble(rs[0]), Convert.ToDouble(rs[1])) == -23787932342) 
+                            return "ERRO";
+                        else
+                            return Convert.ToString(Divisao(Convert.ToDouble(rs[0]), Convert.ToDouble(rs[1])));
                     break;
                     case '*':
                         rs = r.Split("*");

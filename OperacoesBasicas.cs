@@ -5,7 +5,10 @@ namespace calculadora_cs
         protected string[] botoes = {"7", "8", "9", "/", "4", "5", "6", "x", "1", "2", "3", "-", ".", "0", "=", "+"};
 
         protected double Divisao(double a, double b) {
-            return a/b;
+            if (b==0)
+                return -23787932342;
+            else 
+                return a/b;
         }
 
         protected double Multiplicacao(double a, double b) {
